@@ -32,10 +32,18 @@
         </section>
         <section id="contact">
             <h1>Contact</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi culpa illum, ea vero ipsum aperiam.</p>
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <h3>Get in Touch</h3>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <input type="textbox" id="phone" placeholder="Phone Number" required>
+                    <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                    <button type="submit">Send</button>
+                </form>
         </section>
     </div>
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
