@@ -32,18 +32,17 @@
         </section>
         <section id="contact">
             <h1>Contact</h1>
-                <form onsubmit="sendEmail(); reset(); return false;">
+                <form action="https://formsubmit.co/63659ef454cb1eafe4128d902ff503a6" method="POST">
                     <h3>Get in Touch</h3>
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <input type="text" name="_honey" style="display:none">
                     <input type="text" id="name" placeholder="Your Name" required>
                     <input type="email" id="email" placeholder="Email Address" required>
                     <input type="textbox" id="phone" placeholder="Phone Number" required>
                     <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
                     <button type="submit">Send</button>
-                </form>
+                </form> 
         </section>
     </div>
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
