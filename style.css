@@ -75,55 +75,60 @@ section p {
 
 /* Section Images */
 section#home {
-    background: url('https://source.unsplash.com/bZZp1PmHI0E/1600x900') no-repeat center center/cover;;
-  }
-  
-  section#about {
-    background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;;
-  }
-  
-  section#service {
-    background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;;
-  }
-  
-  section#contact {
-    background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;;
-  }
+    background: url('images/matthew-dockery-s99-JP8P3Hg-unsplash.jpg') no-repeat center center/cover;
+}
 
-  form {
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 2vw 4vw;
-    width: 90%;
-    max-width: 600px;
-    border-radius: 10px;
-  }
+section#about {
+  background: url('images/neelabh-raj-cw1914zDHUs-unsplash.jpg') no-repeat center center/cover;;
+}
 
-  form h3 {
-    color: #555;
-    font-weight: 800;
-    margin-bottom: 20px;
-  }
+section#service {
+  background: url('images/neelabh-raj-rS9PBJBY5pc-unsplash.jpg') no-repeat center center/cover;;
+}
 
-  form input, form textarea {
-    border: 0;
-    margin: 10px 0;
-    padding: 20px;
-    outline: none;
-    background: #f5f5f5;
-    font-size: 16px;
-  }
+section#contact {
+  background: url('images/deniz-demirci-cNQoYkRJmQk-unsplash.jpg') no-repeat center center/cover;;
+}
 
-  form button {
-    padding: 15px;
-    background: #ff5361;
-    color: white;
-    font-size: 18px;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    width: 150px;
-    margin: 20px auto 0;
-    border-radius: 30px;
-  }
+#home h1 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3 {
+  color: #555;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+form input, form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+form button {
+  padding: 15px;
+  background: #ff5361;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
